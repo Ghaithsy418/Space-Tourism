@@ -20,11 +20,11 @@ const TechnologyLayout: React.FC<TechnologyProps> = function ({
       windowWidth.current = window.innerWidth;
       if (windowWidth.current <= 1269) {
         setImage(
-          `../../public/technology/image-${name.replace(" ", "-")}-landscape.jpg`,
+          `/technology/image-${name.replace(" ", "-")}-landscape.jpg`,
         );
       } else {
         setImage(
-          `../../public/technology/image-${name.replace(" ", "-")}-portrait.jpg`,
+          `/technology/image-${name.replace(" ", "-")}-portrait.jpg`,
         );
       }
     };

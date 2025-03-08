@@ -24,7 +24,7 @@ const CrewLayout: React.FC<CrewTypes> = function ({ title, name, children }) {
       <div>
         <img
           className="w-[250px] lg:w-[400px]"
-          src={`../../public/crew/image-${name.replace(" ", "-")}.webp`}
+          src={`/crew/image-${name.replace(" ", "-")}.webp`}
           alt={`image of ${name}`}
         />
         <div className="absolute inset-0 bottom-0 bg-gradient-to-t from-blue-900 via-transparent to-transparent"></div>{" "}
