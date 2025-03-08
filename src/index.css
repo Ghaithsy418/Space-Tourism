@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+@theme{
+  --color-blue-900: #0b0d17;
+  --color-blue-300: #d0d6f9;
+  --font-bellefair: 'Bellefair', sans-serif;
+  --font-barlow: 'Barlow', sans-serif;
+}
+
