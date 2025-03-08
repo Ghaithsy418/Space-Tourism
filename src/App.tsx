@@ -13,9 +13,9 @@ import Technology02 from "./Components/Technology02";
 import Technology03 from "./Components/Technology03";
 import { AnimatePresence } from "motion/react";
 import { lazy, Suspense } from "react";
+import Message from "./Components/Message";
 
 const AppLayout = lazy(() => import("./Components/Applayout"));
-const Message = lazy(() => import("./Components/Message"));
 const Destination = lazy(() => import("./Components/Destination"));
 const Crew = lazy(() => import("./Components/Crew"));
 const HomePage = lazy(() => import("./Components/HomePage"));
