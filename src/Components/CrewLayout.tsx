@@ -8,16 +8,18 @@ interface CrewTypes {
 }
 const CrewLayout: React.FC<CrewTypes> = function ({ title, name, children }) {
   return (
-    <div className="mx-10 flex h-[50vh] flex-col items-center justify-center gap-4 md:mx-16 lg:mx-22 xl:mx-30 lg:flex-row xl:gap-20">
+    <div className="mx-10 flex h-[50vh] flex-col items-center justify-center gap-4 md:mx-16 lg:mx-22 lg:flex-row xl:mx-30 xl:gap-20">
       <div className="z-10 flex h-50 max-w-[600px] flex-col items-start gap-4 xl:gap-40">
         <div>
-          <h3 className="font-bellefair mb-2 text-lg sm:text-[20px] text-gray-400 uppercase lg:text-[27px]">
+          <h3 className="font-bellefair mb-2 text-lg text-gray-400 uppercase sm:text-[20px] lg:text-[27px]">
             {title}
           </h3>
-          <h1 className="font-bellefair mb-2 sm:mb-4 text-3xl sm:text-[36px] uppercase lg:text-[48px]">
+          <h1 className="font-bellefair mb-2 text-3xl uppercase sm:mb-4 sm:text-[36px] lg:text-[48px]">
             {name}
           </h1>
-          <p className="md:leading-7 text-xs sm:text-[12px] leading-6 text-blue-300">{children}</p>
+          <p className="text-xs leading-6 text-blue-300 sm:text-[12px] md:leading-7">
+            {children}
+          </p>
         </div>
         <CrewLinks />
       </div>
