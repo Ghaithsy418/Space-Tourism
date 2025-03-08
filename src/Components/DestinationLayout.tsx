@@ -22,7 +22,6 @@ const DestinationLayout: React.FC<DestinationTypes> = function ({
           className="w-48 lg:w-96"
           src={`/destination/image-${title}.webp`}
           alt={`image of ${title}`}
-          loading="lazy"
           variants={motionPlanetVariant}
           animate="visible"
           initial="hidden"

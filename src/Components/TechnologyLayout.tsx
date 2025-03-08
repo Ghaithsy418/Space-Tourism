@@ -51,7 +51,6 @@ const TechnologyLayout: React.FC<TechnologyProps> = function ({
         <img
           src={image}
           alt={`image of ${name}`}
-          loading="lazy"
           className="rounded-sm w-[350px] h-[150px] sm:w-[400px] sm:h-[200px] md:w-[600px] xl:w-[450px] xl:h-[550px] md:h-[300px] object-fill lg:object-cover"
         />
       </div>
