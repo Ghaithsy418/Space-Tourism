@@ -36,7 +36,7 @@ const TechnologyLayout: React.FC<TechnologyProps> = function ({
     return () => window.removeEventListener("resize", handleResize);
   }, [name]);
   return (
-    <div className="ml-0 flex h-[50vh] flex-col-reverse items-center justify-center gap-4 sm:ml-8 md:ml-16 lg:ml-24 xl:ml-30 xl:flex-row">
+    <div className="ml-0 flex h-[25rem] flex-col-reverse items-center justify-center gap-4 sm:ml-8 md:ml-16 lg:ml-24 xl:ml-30 xl:flex-row">
       <div className="flex items-center justify-center gap-4 sm:gap-10">
         <TechnologyLinks />
         <div className="w-[70%] sm:w-[27rem]">

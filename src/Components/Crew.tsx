@@ -7,7 +7,7 @@ function Crew() {
       variants={motionVariant}
       initial="hidden"
       animate="visible"
-      className={`flex h-[100vh] flex-col items-center justify-center gap-30 bg-[url(/crew/background-crew-desktop.jpg)] bg-cover`}
+      className={`flex h-[46.6rem] flex-col items-center justify-center gap-30 bg-[url(/crew/background-crew-desktop.jpg)] bg-cover`}
     >
       <RoutesLayout num="02">Meet your crew</RoutesLayout>
     </motion.div>

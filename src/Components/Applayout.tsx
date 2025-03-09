@@ -5,10 +5,8 @@ function Applayout() {
   return (
     <>
       <NavBar />
-      <main>
-        <div className="h-[100vh]">
+      <main className="min-h-screen">
           <Outlet />
-        </div>
       </main>
     </>
   );

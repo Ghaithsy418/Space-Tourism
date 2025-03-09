@@ -14,7 +14,7 @@ function HomePage() {
       initial="hidden"
       animate="visible"
       variants={motionVariant}
-      className="flex h-[100vh] w-[100vw] items-center justify-center bg-[url(/home/background-home-mobile.jpg)] md:bg-[url(/home/background-home-tablet.jpg)] bg-cover bg-center bg-no-repeat text-center lg:items-end lg:bg-[url(/home/background-home-desktop.jpg)] lg:text-start"
+      className="flex h-[46.7rem] w-[100vw] items-center justify-center bg-[url(/home/background-home-mobile.jpg)] md:bg-[url(/home/background-home-tablet.jpg)] bg-cover bg-center bg-no-repeat text-center lg:items-end lg:bg-[url(/home/background-home-desktop.jpg)] lg:text-start"
     >
       <div className="mx-40 mb-0 flex flex-col items-center justify-center lg:mb-26 lg:flex-row lg:justify-between">
         <motion.div
