@@ -7,20 +7,28 @@ function DestinationLinks() {
       variants={motionChildrenTop}
       initial="hidden"
       animate="visible"
-      className="flex items-center justify-center gap-6 mb-2"
+      className="mb-2 flex items-center justify-center gap-6"
     >
-      <ButtonLink num="" to="/destination/moon">
-        MOON
-      </ButtonLink>
-      <ButtonLink num="" to="/destination/mars">
-        Mars
-      </ButtonLink>
-      <ButtonLink num="" to="/destination/eruopa">
-        Europa
-      </ButtonLink>
-      <ButtonLink num="" to="/destination/titan">
-        Titan
-      </ButtonLink>
+      <li>
+        <ButtonLink num="" to="/destination/moon">
+          MOON
+        </ButtonLink>
+      </li>
+      <li>
+        <ButtonLink num="" to="/destination/mars">
+          Mars
+        </ButtonLink>
+      </li>
+      <li>
+        <ButtonLink num="" to="/destination/eruopa">
+          Europa
+        </ButtonLink>
+      </li>
+      <li>
+        <ButtonLink num="" to="/destination/titan">
+          Titan
+        </ButtonLink>
+      </li>
     </motion.ul>
   );
 }
