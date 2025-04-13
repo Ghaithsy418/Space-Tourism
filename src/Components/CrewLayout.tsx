@@ -24,12 +24,13 @@ const CrewLayout: React.FC<CrewTypes> = function ({ title, name, children }) {
         <CrewLinks />
       </div>
       <div>
-        <img
-          className="w-[250px] lg:w-[400px]"
-          src={`/crew/image-${name.replace(" ", "-")}.webp`}
-          alt={`image of ${name}`}
-        />
-        <div className="absolute inset-0 bottom-0 bg-gradient-to-t from-blue-900 via-transparent to-transparent"></div>{" "}
+        <div className="w-[250px] lg:w-[400px]">
+          <img
+            src={`/crew/image-${name.replace(" ", "-")}.webp`}
+            alt={`image of ${name}`}
+          />
+        </div>
+        <div className="fixed inset-0 bottom-0 z-10 bg-gradient-to-t from-blue-900 via-transparent to-transparent"></div>
       </div>
     </div>
   );

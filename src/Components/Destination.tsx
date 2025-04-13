@@ -7,7 +7,7 @@ function Destination() {
       variants={motionVariant}
       initial="hidden"
       animate="visible"
-      className={`flex h-[46.6rem] flex-col items-center justify-center gap-6 lg:gap-20 bg-[url(/destination/background-destination-desktop.jpg)] bg-cover`}
+      className={`flex h-[46.6rem] flex-col items-center justify-end gap-6 bg-[url(/destination/background-destination-desktop.jpg)] bg-cover pb-16 lg:gap-20`}
     >
       <RoutesLayout num="01">Pick your destination</RoutesLayout>
     </motion.div>
