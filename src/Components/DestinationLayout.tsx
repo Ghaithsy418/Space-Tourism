@@ -16,7 +16,7 @@ const DestinationLayout: React.FC<DestinationTypes> = function ({
   travelTime,
 }) {
   return (
-    <div className="flex w-[80vw] flex-col items-center justify-center gap-8 lg:flex-row lg:gap-36">
+    <div className="flex w-[80vw] h-[32rem] sm:h-[27rem] flex-col items-center justify-center gap-8 lg:flex-row lg:gap-36">
       <div className="w-48 lg:w-96">
         <motion.img
           src={`/destination/image-${title}.webp`}

@@ -7,7 +7,7 @@ function DestinationLinks() {
       variants={motionChildrenTop}
       initial="hidden"
       animate="visible"
-      className="mb-2 flex items-center justify-center gap-6"
+      className="mb-3 flex items-center justify-center gap-6"
     >
       <li>
         <ButtonLink num="" to="/destination/moon">

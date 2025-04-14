@@ -30,7 +30,7 @@ const CrewLayout: React.FC<CrewTypes> = function ({ title, name, children }) {
             alt={`image of ${name}`}
           />
         </div>
-        <div className="fixed inset-0 bottom-0 z-10 bg-gradient-to-t from-blue-900 via-transparent to-transparent"></div>
+        <div className="fixed inset-0 bottom-0 z-5 bg-gradient-to-t from-blue-900 via-transparent to-transparent"></div>
       </div>
     </div>
   );
